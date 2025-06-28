@@ -56,9 +56,9 @@ def sentiment_analysis(endpoint, key, text):
         return None
 
 def main():
-    endpoint = "YOUR_ENDPOINT_URL"
-    key = "YOUR_SUBSCRIPTION_KEY"
-    sample_text = "YOUR_SAMPLE_TEXT"
+    endpoint = "https://my-lang-svc.cognitiveservices.azure.com/"
+    key = "8Zmb7zIrjUTpLKTtSiGfHgJ27JJAVyU3Oj61J4fIoSjkjkDsEiBdJQQJ99BFACYeBjFXJ3w3AAAaACOGbW9c"
+    sample_text = "The hotel is good. The food and service were nice."
     sentiment_analysis(endpoint, key, sample_text)
 
 if __name__ == "__main__":

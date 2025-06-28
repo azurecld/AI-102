@@ -1,0 +1,2185 @@
+Raw response as formatted JSON:
+{
+  "modelVersion": "2023-10-01",
+  "captionResult": {
+    "text": "a group of people sitting on grass in front of a large dome",
+    "confidence": 0.7939185500144958
+  },
+  "metadata": {
+    "width": 1000,
+    "height": 600
+  },
+  "tagsResult": {
+    "values": [
+      {
+        "name": "sky",
+        "confidence": 0.9978377819061279
+      },
+      {
+        "name": "outdoor",
+        "confidence": 0.9748458862304688
+      },
+      {
+        "name": "grass",
+        "confidence": 0.9635666608810425
+      },
+      {
+        "name": "man",
+        "confidence": 0.8981913328170776
+      },
+      {
+        "name": "building",
+        "confidence": 0.8782122135162354
+      },
+      {
+        "name": "clothing",
+        "confidence": 0.8748005032539368
+      },
+      {
+        "name": "tent",
+        "confidence": 0.8720570802688599
+      },
+      {
+        "name": "person",
+        "confidence": 0.8629779815673828
+      },
+      {
+        "name": "people",
+        "confidence": 0.859944760799408
+      },
+      {
+        "name": "field",
+        "confidence": 0.7985865473747253
+      },
+      {
+        "name": "large",
+        "confidence": 0.7696055173873901
+      },
+      {
+        "name": "dome",
+        "confidence": 0.6846001744270325
+      },
+      {
+        "name": "crowd",
+        "confidence": 0.5857929587364197
+      },
+      {
+        "name": "festival",
+        "confidence": 0.5760361552238464
+      },
+      {
+        "name": "music",
+        "confidence": 0.4421422481536865
+      }
+    ]
+  },
+  "peopleResult": {
+    "values": [
+      {
+        "boundingBox": {
+          "x": 622,
+          "y": 350,
+          "w": 84,
+          "h": 113
+        },
+        "confidence": 0.8695482015609741
+      },
+      {
+        "boundingBox": {
+          "x": 698,
+          "y": 358,
+          "w": 86,
+          "h": 106
+        },
+        "confidence": 0.8674992918968201
+      },
+      {
+        "boundingBox": {
+          "x": 847,
+          "y": 344,
+          "w": 76,
+          "h": 107
+        },
+        "confidence": 0.8379660248756409
+      },
+      {
+        "boundingBox": {
+          "x": 930,
+          "y": 360,
+          "w": 68,
+          "h": 86
+        },
+        "confidence": 0.8303221464157104
+      },
+      {
+        "boundingBox": {
+          "x": 101,
+          "y": 262,
+          "w": 74,
+          "h": 216
+        },
+        "confidence": 0.8160092234611511
+      },
+      {
+        "boundingBox": {
+          "x": 574,
+          "y": 365,
+          "w": 88,
+          "h": 98
+        },
+        "confidence": 0.8012016415596008
+      },
+      {
+        "boundingBox": {
+          "x": 436,
+          "y": 370,
+          "w": 64,
+          "h": 87
+        },
+        "confidence": 0.7958686947822571
+      },
+      {
+        "boundingBox": {
+          "x": 368,
+          "y": 371,
+          "w": 66,
+          "h": 83
+        },
+        "confidence": 0.7766544222831726
+      },
+      {
+        "boundingBox": {
+          "x": 523,
+          "y": 365,
+          "w": 85,
+          "h": 95
+        },
+        "confidence": 0.7731842398643494
+      },
+      {
+        "boundingBox": {
+          "x": 493,
+          "y": 364,
+          "w": 73,
+          "h": 94
+        },
+        "confidence": 0.7481868863105774
+      },
+      {
+        "boundingBox": {
+          "x": 871,
+          "y": 261,
+          "w": 38,
+          "h": 54
+        },
+        "confidence": 0.7218611836433411
+      },
+      {
+        "boundingBox": {
+          "x": 290,
+          "y": 326,
+          "w": 32,
+          "h": 58
+        },
+        "confidence": 0.712541401386261
+      },
+      {
+        "boundingBox": {
+          "x": 915,
+          "y": 259,
+          "w": 36,
+          "h": 54
+        },
+        "confidence": 0.7086235284805298
+      },
+      {
+        "boundingBox": {
+          "x": 542,
+          "y": 307,
+          "w": 36,
+          "h": 55
+        },
+        "confidence": 0.701609194278717
+      },
+      {
+        "boundingBox": {
+          "x": 397,
+          "y": 374,
+          "w": 68,
+          "h": 82
+        },
+        "confidence": 0.6934526562690735
+      },
+      {
+        "boundingBox": {
+          "x": 43,
+          "y": 385,
+          "w": 52,
+          "h": 63
+        },
+        "confidence": 0.6898903250694275
+      },
+      {
+        "boundingBox": {
+          "x": 54,
+          "y": 337,
+          "w": 33,
+          "h": 76
+        },
+        "confidence": 0.6882449388504028
+      },
+      {
+        "boundingBox": {
+          "x": 780,
+          "y": 339,
+          "w": 72,
+          "h": 112
+        },
+        "confidence": 0.6875192523002625
+      },
+      {
+        "boundingBox": {
+          "x": 170,
+          "y": 384,
+          "w": 52,
+          "h": 64
+        },
+        "confidence": 0.6757709383964539
+      },
+      {
+        "boundingBox": {
+          "x": 873,
+          "y": 297,
+          "w": 34,
+          "h": 53
+        },
+        "confidence": 0.6756292581558228
+      },
+      {
+        "boundingBox": {
+          "x": 246,
+          "y": 374,
+          "w": 56,
+          "h": 77
+        },
+        "confidence": 0.6707879304885864
+      },
+      {
+        "boundingBox": {
+          "x": 247,
+          "y": 330,
+          "w": 34,
+          "h": 46
+        },
+        "confidence": 0.6703411936759949
+      },
+      {
+        "boundingBox": {
+          "x": 374,
+          "y": 325,
+          "w": 31,
+          "h": 48
+        },
+        "confidence": 0.6683053970336914
+      },
+      {
+        "boundingBox": {
+          "x": 783,
+          "y": 296,
+          "w": 40,
+          "h": 61
+        },
+        "confidence": 0.6643988490104675
+      },
+      {
+        "boundingBox": {
+          "x": 417,
+          "y": 307,
+          "w": 30,
+          "h": 48
+        },
+        "confidence": 0.6525891423225403
+      },
+      {
+        "boundingBox": {
+          "x": 975,
+          "y": 279,
+          "w": 24,
+          "h": 68
+        },
+        "confidence": 0.6484690308570862
+      },
+      {
+        "boundingBox": {
+          "x": 576,
+          "y": 288,
+          "w": 35,
+          "h": 52
+        },
+        "confidence": 0.647895872592926
+      },
+      {
+        "boundingBox": {
+          "x": 601,
+          "y": 308,
+          "w": 35,
+          "h": 51
+        },
+        "confidence": 0.6439872980117798
+      },
+      {
+        "boundingBox": {
+          "x": 688,
+          "y": 304,
+          "w": 33,
+          "h": 49
+        },
+        "confidence": 0.6409426331520081
+      },
+      {
+        "boundingBox": {
+          "x": 396,
+          "y": 303,
+          "w": 30,
+          "h": 40
+        },
+        "confidence": 0.6325426697731018
+      },
+      {
+        "boundingBox": {
+          "x": 802,
+          "y": 269,
+          "w": 33,
+          "h": 55
+        },
+        "confidence": 0.6261482834815979
+      },
+      {
+        "boundingBox": {
+          "x": 750,
+          "y": 304,
+          "w": 34,
+          "h": 56
+        },
+        "confidence": 0.6182026267051697
+      },
+      {
+        "boundingBox": {
+          "x": 321,
+          "y": 308,
+          "w": 30,
+          "h": 39
+        },
+        "confidence": 0.6155436635017395
+      },
+      {
+        "boundingBox": {
+          "x": 349,
+          "y": 307,
+          "w": 28,
+          "h": 42
+        },
+        "confidence": 0.6136273741722107
+      },
+      {
+        "boundingBox": {
+          "x": 831,
+          "y": 264,
+          "w": 35,
+          "h": 52
+        },
+        "confidence": 0.6120827198028564
+      },
+      {
+        "boundingBox": {
+          "x": 688,
+          "y": 275,
+          "w": 35,
+          "h": 50
+        },
+        "confidence": 0.6117469668388367
+      },
+      {
+        "boundingBox": {
+          "x": 904,
+          "y": 293,
+          "w": 36,
+          "h": 59
+        },
+        "confidence": 0.6061049699783325
+      },
+      {
+        "boundingBox": {
+          "x": 266,
+          "y": 383,
+          "w": 63,
+          "h": 70
+        },
+        "confidence": 0.6024044156074524
+      },
+      {
+        "boundingBox": {
+          "x": 322,
+          "y": 328,
+          "w": 31,
+          "h": 47
+        },
+        "confidence": 0.5981983542442322
+      },
+      {
+        "boundingBox": {
+          "x": 967,
+          "y": 256,
+          "w": 31,
+          "h": 60
+        },
+        "confidence": 0.595467746257782
+      },
+      {
+        "boundingBox": {
+          "x": 374,
+          "y": 301,
+          "w": 27,
+          "h": 38
+        },
+        "confidence": 0.5934369564056396
+      },
+      {
+        "boundingBox": {
+          "x": 617,
+          "y": 287,
+          "w": 30,
+          "h": 51
+        },
+        "confidence": 0.5755851864814758
+      },
+      {
+        "boundingBox": {
+          "x": 447,
+          "y": 303,
+          "w": 29,
+          "h": 49
+        },
+        "confidence": 0.5754489898681641
+      },
+      {
+        "boundingBox": {
+          "x": 316,
+          "y": 384,
+          "w": 74,
+          "h": 70
+        },
+        "confidence": 0.5737077593803406
+      },
+      {
+        "boundingBox": {
+          "x": 216,
+          "y": 378,
+          "w": 57,
+          "h": 72
+        },
+        "confidence": 0.5653433799743652
+      },
+      {
+        "boundingBox": {
+          "x": 90,
+          "y": 389,
+          "w": 27,
+          "h": 57
+        },
+        "confidence": 0.557218611240387
+      },
+      {
+        "boundingBox": {
+          "x": 638,
+          "y": 311,
+          "w": 32,
+          "h": 53
+        },
+        "confidence": 0.5504463911056519
+      },
+      {
+        "boundingBox": {
+          "x": 930,
+          "y": 323,
+          "w": 42,
+          "h": 48
+        },
+        "confidence": 0.5435905456542969
+      },
+      {
+        "boundingBox": {
+          "x": 640,
+          "y": 288,
+          "w": 29,
+          "h": 46
+        },
+        "confidence": 0.5399254560470581
+      },
+      {
+        "boundingBox": {
+          "x": 520,
+          "y": 313,
+          "w": 27,
+          "h": 51
+        },
+        "confidence": 0.5239118337631226
+      },
+      {
+        "boundingBox": {
+          "x": 429,
+          "y": 332,
+          "w": 31,
+          "h": 47
+        },
+        "confidence": 0.5236289501190186
+      },
+      {
+        "boundingBox": {
+          "x": 473,
+          "y": 299,
+          "w": 31,
+          "h": 43
+        },
+        "confidence": 0.5224888920783997
+      },
+      {
+        "boundingBox": {
+          "x": 351,
+          "y": 334,
+          "w": 24,
+          "h": 39
+        },
+        "confidence": 0.5130166411399841
+      },
+      {
+        "boundingBox": {
+          "x": 183,
+          "y": 346,
+          "w": 25,
+          "h": 46
+        },
+        "confidence": 0.49266886711120605
+      },
+      {
+        "boundingBox": {
+          "x": 976,
+          "y": 316,
+          "w": 23,
+          "h": 49
+        },
+        "confidence": 0.48931437730789185
+      },
+      {
+        "boundingBox": {
+          "x": 935,
+          "y": 278,
+          "w": 41,
+          "h": 50
+        },
+        "confidence": 0.485624223947525
+      },
+      {
+        "boundingBox": {
+          "x": 664,
+          "y": 309,
+          "w": 30,
+          "h": 45
+        },
+        "confidence": 0.4818481504917145
+      },
+      {
+        "boundingBox": {
+          "x": 844,
+          "y": 295,
+          "w": 35,
+          "h": 55
+        },
+        "confidence": 0.47903206944465637
+      },
+      {
+        "boundingBox": {
+          "x": 501,
+          "y": 302,
+          "w": 27,
+          "h": 42
+        },
+        "confidence": 0.4402034878730774
+      },
+      {
+        "boundingBox": {
+          "x": 921,
+          "y": 353,
+          "w": 51,
+          "h": 74
+        },
+        "confidence": 0.421113520860672
+      },
+      {
+        "boundingBox": {
+          "x": 819,
+          "y": 297,
+          "w": 31,
+          "h": 47
+        },
+        "confidence": 0.41995060443878174
+      },
+      {
+        "boundingBox": {
+          "x": 494,
+          "y": 320,
+          "w": 30,
+          "h": 39
+        },
+        "confidence": 0.41324296593666077
+      },
+      {
+        "boundingBox": {
+          "x": 461,
+          "y": 334,
+          "w": 25,
+          "h": 33
+        },
+        "confidence": 0.3977283239364624
+      },
+      {
+        "boundingBox": {
+          "x": 666,
+          "y": 276,
+          "w": 29,
+          "h": 43
+        },
+        "confidence": 0.3955313265323639
+      },
+      {
+        "boundingBox": {
+          "x": 766,
+          "y": 275,
+          "w": 29,
+          "h": 44
+        },
+        "confidence": 0.39441198110580444
+      },
+      {
+        "boundingBox": {
+          "x": 895,
+          "y": 325,
+          "w": 34,
+          "h": 50
+        },
+        "confidence": 0.33154797554016113
+      },
+      {
+        "boundingBox": {
+          "x": 721,
+          "y": 308,
+          "w": 34,
+          "h": 46
+        },
+        "confidence": 0.33069226145744324
+      },
+      {
+        "boundingBox": {
+          "x": 467,
+          "y": 367,
+          "w": 67,
+          "h": 89
+        },
+        "confidence": 0.32990705966949463
+      },
+      {
+        "boundingBox": {
+          "x": 165,
+          "y": 382,
+          "w": 26,
+          "h": 50
+        },
+        "confidence": 0.31692224740982056
+      },
+      {
+        "boundingBox": {
+          "x": 533,
+          "y": 295,
+          "w": 23,
+          "h": 37
+        },
+        "confidence": 0.2960377335548401
+      },
+      {
+        "boundingBox": {
+          "x": 401,
+          "y": 327,
+          "w": 25,
+          "h": 41
+        },
+        "confidence": 0.2919597923755646
+      },
+      {
+        "boundingBox": {
+          "x": 242,
+          "y": 355,
+          "w": 27,
+          "h": 28
+        },
+        "confidence": 0.27347424626350403
+      },
+      {
+        "boundingBox": {
+          "x": 931,
+          "y": 296,
+          "w": 41,
+          "h": 52
+        },
+        "confidence": 0.2677798271179199
+      },
+      {
+        "boundingBox": {
+          "x": 620,
+          "y": 291,
+          "w": 49,
+          "h": 62
+        },
+        "confidence": 0.2541491985321045
+      },
+      {
+        "boundingBox": {
+          "x": 302,
+          "y": 312,
+          "w": 21,
+          "h": 35
+        },
+        "confidence": 0.19941288232803345
+      },
+      {
+        "boundingBox": {
+          "x": 557,
+          "y": 296,
+          "w": 22,
+          "h": 37
+        },
+        "confidence": 0.19859938323497772
+      },
+      {
+        "boundingBox": {
+          "x": 598,
+          "y": 358,
+          "w": 32,
+          "h": 51
+        },
+        "confidence": 0.18111436069011688
+      },
+      {
+        "boundingBox": {
+          "x": 411,
+          "y": 361,
+          "w": 28,
+          "h": 41
+        },
+        "confidence": 0.1658591628074646
+      },
+      {
+        "boundingBox": {
+          "x": 481,
+          "y": 326,
+          "w": 23,
+          "h": 37
+        },
+        "confidence": 0.14038579165935516
+      },
+      {
+        "boundingBox": {
+          "x": 210,
+          "y": 382,
+          "w": 18,
+          "h": 27
+        },
+        "confidence": 0.13771185278892517
+      },
+      {
+        "boundingBox": {
+          "x": 462,
+          "y": 327,
+          "w": 53,
+          "h": 40
+        },
+        "confidence": 0.1321776956319809
+      },
+      {
+        "boundingBox": {
+          "x": 820,
+          "y": 325,
+          "w": 28,
+          "h": 48
+        },
+        "confidence": 0.12883949279785156
+      },
+      {
+        "boundingBox": {
+          "x": 743,
+          "y": 291,
+          "w": 31,
+          "h": 40
+        },
+        "confidence": 0.12550483644008636
+      },
+      {
+        "boundingBox": {
+          "x": 296,
+          "y": 373,
+          "w": 62,
+          "h": 76
+        },
+        "confidence": 0.12308570742607117
+      },
+      {
+        "boundingBox": {
+          "x": 736,
+          "y": 336,
+          "w": 29,
+          "h": 29
+        },
+        "confidence": 0.09476131200790405
+      },
+      {
+        "boundingBox": {
+          "x": 364,
+          "y": 372,
+          "w": 34,
+          "h": 59
+        },
+        "confidence": 0.09357825666666031
+      },
+      {
+        "boundingBox": {
+          "x": 534,
+          "y": 293,
+          "w": 64,
+          "h": 40
+        },
+        "confidence": 0.0925714448094368
+      },
+      {
+        "boundingBox": {
+          "x": 718,
+          "y": 301,
+          "w": 26,
+          "h": 36
+        },
+        "confidence": 0.08881373703479767
+      },
+      {
+        "boundingBox": {
+          "x": 774,
+          "y": 359,
+          "w": 30,
+          "h": 52
+        },
+        "confidence": 0.08750323951244354
+      },
+      {
+        "boundingBox": {
+          "x": 736,
+          "y": 287,
+          "w": 21,
+          "h": 33
+        },
+        "confidence": 0.07921899110078812
+      },
+      {
+        "boundingBox": {
+          "x": 823,
+          "y": 327,
+          "w": 53,
+          "h": 53
+        },
+        "confidence": 0.07772362232208252
+      },
+      {
+        "boundingBox": {
+          "x": 976,
+          "y": 327,
+          "w": 22,
+          "h": 90
+        },
+        "confidence": 0.07456851750612259
+      },
+      {
+        "boundingBox": {
+          "x": 583,
+          "y": 309,
+          "w": 30,
+          "h": 61
+        },
+        "confidence": 0.07456716895103455
+      },
+      {
+        "boundingBox": {
+          "x": 273,
+          "y": 358,
+          "w": 21,
+          "h": 23
+        },
+        "confidence": 0.07433754205703735
+      },
+      {
+        "boundingBox": {
+          "x": 701,
+          "y": 358,
+          "w": 38,
+          "h": 44
+        },
+        "confidence": 0.06813494116067886
+      },
+      {
+        "boundingBox": {
+          "x": 528,
+          "y": 345,
+          "w": 24,
+          "h": 28
+        },
+        "confidence": 0.06488745659589767
+      },
+      {
+        "boundingBox": {
+          "x": 196,
+          "y": 380,
+          "w": 48,
+          "h": 50
+        },
+        "confidence": 0.05929012596607208
+      },
+      {
+        "boundingBox": {
+          "x": 550,
+          "y": 360,
+          "w": 26,
+          "h": 40
+        },
+        "confidence": 0.058339476585388184
+      },
+      {
+        "boundingBox": {
+          "x": 690,
+          "y": 364,
+          "w": 26,
+          "h": 33
+        },
+        "confidence": 0.054829321801662445
+      },
+      {
+        "boundingBox": {
+          "x": 701,
+          "y": 341,
+          "w": 26,
+          "h": 28
+        },
+        "confidence": 0.05322892591357231
+      },
+      {
+        "boundingBox": {
+          "x": 592,
+          "y": 342,
+          "w": 23,
+          "h": 30
+        },
+        "confidence": 0.049818746745586395
+      },
+      {
+        "boundingBox": {
+          "x": 561,
+          "y": 345,
+          "w": 20,
+          "h": 23
+        },
+        "confidence": 0.04896118491888046
+      },
+      {
+        "boundingBox": {
+          "x": 0,
+          "y": 326,
+          "w": 10,
+          "h": 118
+        },
+        "confidence": 0.048011619597673416
+      },
+      {
+        "boundingBox": {
+          "x": 310,
+          "y": 365,
+          "w": 22,
+          "h": 35
+        },
+        "confidence": 0.04772045835852623
+      },
+      {
+        "boundingBox": {
+          "x": 240,
+          "y": 378,
+          "w": 33,
+          "h": 49
+        },
+        "confidence": 0.04432082921266556
+      },
+      {
+        "boundingBox": {
+          "x": 362,
+          "y": 355,
+          "w": 22,
+          "h": 26
+        },
+        "confidence": 0.04300424084067345
+      },
+      {
+        "boundingBox": {
+          "x": 280,
+          "y": 361,
+          "w": 23,
+          "h": 33
+        },
+        "confidence": 0.042971089482307434
+      },
+      {
+        "boundingBox": {
+          "x": 389,
+          "y": 357,
+          "w": 21,
+          "h": 20
+        },
+        "confidence": 0.03400750085711479
+      },
+      {
+        "boundingBox": {
+          "x": 99,
+          "y": 357,
+          "w": 15,
+          "h": 41
+        },
+        "confidence": 0.030013596639037132
+      },
+      {
+        "boundingBox": {
+          "x": 903,
+          "y": 320,
+          "w": 57,
+          "h": 79
+        },
+        "confidence": 0.029014945030212402
+      },
+      {
+        "boundingBox": {
+          "x": 719,
+          "y": 331,
+          "w": 35,
+          "h": 34
+        },
+        "confidence": 0.028596529737114906
+      },
+      {
+        "boundingBox": {
+          "x": 902,
+          "y": 354,
+          "w": 34,
+          "h": 66
+        },
+        "confidence": 0.025381669402122498
+      },
+      {
+        "boundingBox": {
+          "x": 437,
+          "y": 350,
+          "w": 42,
+          "h": 60
+        },
+        "confidence": 0.023706018924713135
+      },
+      {
+        "boundingBox": {
+          "x": 753,
+          "y": 356,
+          "w": 38,
+          "h": 80
+        },
+        "confidence": 0.023141007870435715
+      },
+      {
+        "boundingBox": {
+          "x": 161,
+          "y": 356,
+          "w": 13,
+          "h": 31
+        },
+        "confidence": 0.02127487026154995
+      },
+      {
+        "boundingBox": {
+          "x": 652,
+          "y": 342,
+          "w": 22,
+          "h": 32
+        },
+        "confidence": 0.0205723587423563
+      },
+      {
+        "boundingBox": {
+          "x": 325,
+          "y": 356,
+          "w": 31,
+          "h": 31
+        },
+        "confidence": 0.020270785316824913
+      },
+      {
+        "boundingBox": {
+          "x": 567,
+          "y": 348,
+          "w": 30,
+          "h": 23
+        },
+        "confidence": 0.020242271944880486
+      },
+      {
+        "boundingBox": {
+          "x": 384,
+          "y": 374,
+          "w": 18,
+          "h": 29
+        },
+        "confidence": 0.018008263781666756
+      },
+      {
+        "boundingBox": {
+          "x": 444,
+          "y": 353,
+          "w": 24,
+          "h": 35
+        },
+        "confidence": 0.017797822132706642
+      },
+      {
+        "boundingBox": {
+          "x": 808,
+          "y": 265,
+          "w": 47,
+          "h": 71
+        },
+        "confidence": 0.01768173836171627
+      },
+      {
+        "boundingBox": {
+          "x": 429,
+          "y": 374,
+          "w": 35,
+          "h": 58
+        },
+        "confidence": 0.01679949276149273
+      },
+      {
+        "boundingBox": {
+          "x": 849,
+          "y": 327,
+          "w": 36,
+          "h": 43
+        },
+        "confidence": 0.016332263126969337
+      },
+      {
+        "boundingBox": {
+          "x": 131,
+          "y": 322,
+          "w": 67,
+          "h": 130
+        },
+        "confidence": 0.016061436384916306
+      },
+      {
+        "boundingBox": {
+          "x": 457,
+          "y": 359,
+          "w": 22,
+          "h": 31
+        },
+        "confidence": 0.015566129237413406
+      },
+      {
+        "boundingBox": {
+          "x": 651,
+          "y": 359,
+          "w": 21,
+          "h": 36
+        },
+        "confidence": 0.01525112520903349
+      },
+      {
+        "boundingBox": {
+          "x": 174,
+          "y": 350,
+          "w": 42,
+          "h": 62
+        },
+        "confidence": 0.013482841663062572
+      },
+      {
+        "boundingBox": {
+          "x": 380,
+          "y": 358,
+          "w": 27,
+          "h": 32
+        },
+        "confidence": 0.012896052561700344
+      },
+      {
+        "boundingBox": {
+          "x": 983,
+          "y": 359,
+          "w": 15,
+          "h": 85
+        },
+        "confidence": 0.012371363118290901
+      },
+      {
+        "boundingBox": {
+          "x": 248,
+          "y": 372,
+          "w": 28,
+          "h": 32
+        },
+        "confidence": 0.011420910246670246
+      },
+      {
+        "boundingBox": {
+          "x": 485,
+          "y": 360,
+          "w": 21,
+          "h": 30
+        },
+        "confidence": 0.01049592811614275
+      },
+      {
+        "boundingBox": {
+          "x": 323,
+          "y": 375,
+          "w": 35,
+          "h": 55
+        },
+        "confidence": 0.010178634896874428
+      },
+      {
+        "boundingBox": {
+          "x": 379,
+          "y": 372,
+          "w": 29,
+          "h": 49
+        },
+        "confidence": 0.010035321116447449
+      },
+      {
+        "boundingBox": {
+          "x": 443,
+          "y": 368,
+          "w": 27,
+          "h": 36
+        },
+        "confidence": 0.010006075724959373
+      },
+      {
+        "boundingBox": {
+          "x": 459,
+          "y": 349,
+          "w": 41,
+          "h": 61
+        },
+        "confidence": 0.009930434636771679
+      },
+      {
+        "boundingBox": {
+          "x": 711,
+          "y": 339,
+          "w": 32,
+          "h": 32
+        },
+        "confidence": 0.009568418376147747
+      },
+      {
+        "boundingBox": {
+          "x": 293,
+          "y": 354,
+          "w": 36,
+          "h": 40
+        },
+        "confidence": 0.009521878324449062
+      },
+      {
+        "boundingBox": {
+          "x": 313,
+          "y": 371,
+          "w": 35,
+          "h": 42
+        },
+        "confidence": 0.009386993013322353
+      },
+      {
+        "boundingBox": {
+          "x": 493,
+          "y": 338,
+          "w": 32,
+          "h": 37
+        },
+        "confidence": 0.009291433729231358
+      },
+      {
+        "boundingBox": {
+          "x": 744,
+          "y": 342,
+          "w": 38,
+          "h": 46
+        },
+        "confidence": 0.009263768792152405
+      },
+      {
+        "boundingBox": {
+          "x": 758,
+          "y": 355,
+          "w": 27,
+          "h": 40
+        },
+        "confidence": 0.008759071119129658
+      },
+      {
+        "boundingBox": {
+          "x": 848,
+          "y": 315,
+          "w": 61,
+          "h": 82
+        },
+        "confidence": 0.008057030849158764
+      },
+      {
+        "boundingBox": {
+          "x": 502,
+          "y": 350,
+          "w": 29,
+          "h": 30
+        },
+        "confidence": 0.008045756258070469
+      },
+      {
+        "boundingBox": {
+          "x": 295,
+          "y": 381,
+          "w": 33,
+          "h": 52
+        },
+        "confidence": 0.007908101193606853
+      },
+      {
+        "boundingBox": {
+          "x": 988,
+          "y": 345,
+          "w": 11,
+          "h": 51
+        },
+        "confidence": 0.007072520907968283
+      },
+      {
+        "boundingBox": {
+          "x": 331,
+          "y": 336,
+          "w": 49,
+          "h": 57
+        },
+        "confidence": 0.006599803455173969
+      },
+      {
+        "boundingBox": {
+          "x": 69,
+          "y": 386,
+          "w": 29,
+          "h": 43
+        },
+        "confidence": 0.006574660539627075
+      },
+      {
+        "boundingBox": {
+          "x": 626,
+          "y": 351,
+          "w": 24,
+          "h": 24
+        },
+        "confidence": 0.006274724844843149
+      },
+      {
+        "boundingBox": {
+          "x": 238,
+          "y": 377,
+          "w": 24,
+          "h": 29
+        },
+        "confidence": 0.006150024943053722
+      },
+      {
+        "boundingBox": {
+          "x": 498,
+          "y": 365,
+          "w": 37,
+          "h": 61
+        },
+        "confidence": 0.005291045643389225
+      },
+      {
+        "boundingBox": {
+          "x": 577,
+          "y": 359,
+          "w": 50,
+          "h": 78
+        },
+        "confidence": 0.005132539197802544
+      },
+      {
+        "boundingBox": {
+          "x": 195,
+          "y": 361,
+          "w": 32,
+          "h": 53
+        },
+        "confidence": 0.004739892669022083
+      },
+      {
+        "boundingBox": {
+          "x": 884,
+          "y": 255,
+          "w": 50,
+          "h": 71
+        },
+        "confidence": 0.004718097858130932
+      },
+      {
+        "boundingBox": {
+          "x": 286,
+          "y": 379,
+          "w": 26,
+          "h": 36
+        },
+        "confidence": 0.00448947586119175
+      },
+      {
+        "boundingBox": {
+          "x": 784,
+          "y": 348,
+          "w": 20,
+          "h": 29
+        },
+        "confidence": 0.004432754125446081
+      },
+      {
+        "boundingBox": {
+          "x": 811,
+          "y": 321,
+          "w": 45,
+          "h": 79
+        },
+        "confidence": 0.004331926815211773
+      },
+      {
+        "boundingBox": {
+          "x": 845,
+          "y": 352,
+          "w": 37,
+          "h": 74
+        },
+        "confidence": 0.003936572466045618
+      },
+      {
+        "boundingBox": {
+          "x": 0,
+          "y": 339,
+          "w": 8,
+          "h": 49
+        },
+        "confidence": 0.0035568387247622013
+      },
+      {
+        "boundingBox": {
+          "x": 406,
+          "y": 305,
+          "w": 50,
+          "h": 74
+        },
+        "confidence": 0.0034695537760853767
+      },
+      {
+        "boundingBox": {
+          "x": 949,
+          "y": 338,
+          "w": 39,
+          "h": 50
+        },
+        "confidence": 0.003455419559031725
+      },
+      {
+        "boundingBox": {
+          "x": 628,
+          "y": 328,
+          "w": 33,
+          "h": 43
+        },
+        "confidence": 0.0034396429546177387
+      },
+      {
+        "boundingBox": {
+          "x": 354,
+          "y": 367,
+          "w": 25,
+          "h": 33
+        },
+        "confidence": 0.0033034232910722494
+      },
+      {
+        "boundingBox": {
+          "x": 612,
+          "y": 348,
+          "w": 31,
+          "h": 28
+        },
+        "confidence": 0.002828603610396385
+      },
+      {
+        "boundingBox": {
+          "x": 377,
+          "y": 310,
+          "w": 45,
+          "h": 71
+        },
+        "confidence": 0.0027968636713922024
+      },
+      {
+        "boundingBox": {
+          "x": 162,
+          "y": 355,
+          "w": 29,
+          "h": 37
+        },
+        "confidence": 0.0027368294540792704
+      },
+      {
+        "boundingBox": {
+          "x": 688,
+          "y": 361,
+          "w": 34,
+          "h": 76
+        },
+        "confidence": 0.0026031280867755413
+      },
+      {
+        "boundingBox": {
+          "x": 449,
+          "y": 297,
+          "w": 47,
+          "h": 69
+        },
+        "confidence": 0.002499698894098401
+      },
+      {
+        "boundingBox": {
+          "x": 901,
+          "y": 282,
+          "w": 34,
+          "h": 41
+        },
+        "confidence": 0.0024207360111176968
+      },
+      {
+        "boundingBox": {
+          "x": 678,
+          "y": 340,
+          "w": 26,
+          "h": 35
+        },
+        "confidence": 0.002199712209403515
+      },
+      {
+        "boundingBox": {
+          "x": 607,
+          "y": 363,
+          "w": 57,
+          "h": 64
+        },
+        "confidence": 0.0018954019760712981
+      },
+      {
+        "boundingBox": {
+          "x": 782,
+          "y": 339,
+          "w": 29,
+          "h": 27
+        },
+        "confidence": 0.0018127744551748037
+      },
+      {
+        "boundingBox": {
+          "x": 452,
+          "y": 378,
+          "w": 39,
+          "h": 57
+        },
+        "confidence": 0.0017542355926707387
+      },
+      {
+        "boundingBox": {
+          "x": 645,
+          "y": 279,
+          "w": 46,
+          "h": 70
+        },
+        "confidence": 0.0016994677716866136
+      },
+      {
+        "boundingBox": {
+          "x": 773,
+          "y": 272,
+          "w": 33,
+          "h": 32
+        },
+        "confidence": 0.0016987745184451342
+      },
+      {
+        "boundingBox": {
+          "x": 479,
+          "y": 297,
+          "w": 49,
+          "h": 70
+        },
+        "confidence": 0.0016950102290138602
+      },
+      {
+        "boundingBox": {
+          "x": 262,
+          "y": 329,
+          "w": 40,
+          "h": 43
+        },
+        "confidence": 0.0016202580882236362
+      },
+      {
+        "boundingBox": {
+          "x": 520,
+          "y": 305,
+          "w": 50,
+          "h": 72
+        },
+        "confidence": 0.0015897576231509447
+      },
+      {
+        "boundingBox": {
+          "x": 870,
+          "y": 334,
+          "w": 48,
+          "h": 55
+        },
+        "confidence": 0.001571910921484232
+      },
+      {
+        "boundingBox": {
+          "x": 615,
+          "y": 323,
+          "w": 93,
+          "h": 68
+        },
+        "confidence": 0.0014302724739536643
+      },
+      {
+        "boundingBox": {
+          "x": 731,
+          "y": 307,
+          "w": 105,
+          "h": 67
+        },
+        "confidence": 0.0014224444748833776
+      },
+      {
+        "boundingBox": {
+          "x": 522,
+          "y": 359,
+          "w": 47,
+          "h": 66
+        },
+        "confidence": 0.0013794859405606985
+      },
+      {
+        "boundingBox": {
+          "x": 77,
+          "y": 379,
+          "w": 20,
+          "h": 30
+        },
+        "confidence": 0.0012958607403561473
+      },
+      {
+        "boundingBox": {
+          "x": 71,
+          "y": 346,
+          "w": 21,
+          "h": 56
+        },
+        "confidence": 0.0012244530953466892
+      },
+      {
+        "boundingBox": {
+          "x": 799,
+          "y": 266,
+          "w": 31,
+          "h": 32
+        },
+        "confidence": 0.0011468477314338088
+      },
+      {
+        "boundingBox": {
+          "x": 719,
+          "y": 348,
+          "w": 42,
+          "h": 47
+        },
+        "confidence": 0.0011440652888268232
+      },
+      {
+        "boundingBox": {
+          "x": 951,
+          "y": 367,
+          "w": 33,
+          "h": 60
+        },
+        "confidence": 0.0011091046035289764
+      },
+      {
+        "boundingBox": {
+          "x": 396,
+          "y": 369,
+          "w": 38,
+          "h": 57
+        },
+        "confidence": 0.0011020400561392307
+      },
+      {
+        "boundingBox": {
+          "x": 675,
+          "y": 304,
+          "w": 93,
+          "h": 61
+        },
+        "confidence": 0.0010836038272827864
+      },
+      {
+        "boundingBox": {
+          "x": 653,
+          "y": 352,
+          "w": 37,
+          "h": 45
+        },
+        "confidence": 0.001078693545423448
+      },
+      {
+        "boundingBox": {
+          "x": 725,
+          "y": 285,
+          "w": 51,
+          "h": 73
+        },
+        "confidence": 0.00103352265432477
+      },
+      {
+        "boundingBox": {
+          "x": 758,
+          "y": 325,
+          "w": 37,
+          "h": 51
+        },
+        "confidence": 0.0010265599703416228
+      }
+    ]
+  }
+}
+
+
+People detected!
+  Bounding Box: x=622, y=350, width=84, height=113
+  Confidence: 0.87
+  Bounding Box: x=698, y=358, width=86, height=106
+  Confidence: 0.87
+  Bounding Box: x=847, y=344, width=76, height=107
+  Confidence: 0.84
+  Bounding Box: x=930, y=360, width=68, height=86
+  Confidence: 0.83
+  Bounding Box: x=101, y=262, width=74, height=216
+  Confidence: 0.82
+  Bounding Box: x=574, y=365, width=88, height=98
+  Confidence: 0.80
+  Bounding Box: x=436, y=370, width=64, height=87
+  Confidence: 0.80
+  Bounding Box: x=368, y=371, width=66, height=83
+  Confidence: 0.78
+  Bounding Box: x=523, y=365, width=85, height=95
+  Confidence: 0.77
+  Bounding Box: x=493, y=364, width=73, height=94
+  Confidence: 0.75
+  Bounding Box: x=871, y=261, width=38, height=54
+  Confidence: 0.72
+  Bounding Box: x=290, y=326, width=32, height=58
+  Confidence: 0.71
+  Bounding Box: x=915, y=259, width=36, height=54
+  Confidence: 0.71
+  Bounding Box: x=542, y=307, width=36, height=55
+  Confidence: 0.70
+  Bounding Box: x=397, y=374, width=68, height=82
+  Confidence: 0.69
+  Bounding Box: x=43, y=385, width=52, height=63
+  Confidence: 0.69
+  Bounding Box: x=54, y=337, width=33, height=76
+  Confidence: 0.69
+  Bounding Box: x=780, y=339, width=72, height=112
+  Confidence: 0.69
+  Bounding Box: x=170, y=384, width=52, height=64
+  Confidence: 0.68
+  Bounding Box: x=873, y=297, width=34, height=53
+  Confidence: 0.68
+  Bounding Box: x=246, y=374, width=56, height=77
+  Confidence: 0.67
+  Bounding Box: x=247, y=330, width=34, height=46
+  Confidence: 0.67
+  Bounding Box: x=374, y=325, width=31, height=48
+  Confidence: 0.67
+  Bounding Box: x=783, y=296, width=40, height=61
+  Confidence: 0.66
+  Bounding Box: x=417, y=307, width=30, height=48
+  Confidence: 0.65
+  Bounding Box: x=975, y=279, width=24, height=68
+  Confidence: 0.65
+  Bounding Box: x=576, y=288, width=35, height=52
+  Confidence: 0.65
+  Bounding Box: x=601, y=308, width=35, height=51
+  Confidence: 0.64
+  Bounding Box: x=688, y=304, width=33, height=49
+  Confidence: 0.64
+  Bounding Box: x=396, y=303, width=30, height=40
+  Confidence: 0.63
+  Bounding Box: x=802, y=269, width=33, height=55
+  Confidence: 0.63
+  Bounding Box: x=750, y=304, width=34, height=56
+  Confidence: 0.62
+  Bounding Box: x=321, y=308, width=30, height=39
+  Confidence: 0.62
+  Bounding Box: x=349, y=307, width=28, height=42
+  Confidence: 0.61
+  Bounding Box: x=831, y=264, width=35, height=52
+  Confidence: 0.61
+  Bounding Box: x=688, y=275, width=35, height=50
+  Confidence: 0.61
+  Bounding Box: x=904, y=293, width=36, height=59
+  Confidence: 0.61
+  Bounding Box: x=266, y=383, width=63, height=70
+  Confidence: 0.60
+  Bounding Box: x=322, y=328, width=31, height=47
+  Confidence: 0.60
+  Bounding Box: x=967, y=256, width=31, height=60
+  Confidence: 0.60
+  Bounding Box: x=374, y=301, width=27, height=38
+  Confidence: 0.59
+  Bounding Box: x=617, y=287, width=30, height=51
+  Confidence: 0.58
+  Bounding Box: x=447, y=303, width=29, height=49
+  Confidence: 0.58
+  Bounding Box: x=316, y=384, width=74, height=70
+  Confidence: 0.57
+  Bounding Box: x=216, y=378, width=57, height=72
+  Confidence: 0.57
+  Bounding Box: x=90, y=389, width=27, height=57
+  Confidence: 0.56
+  Bounding Box: x=638, y=311, width=32, height=53
+  Confidence: 0.55
+  Bounding Box: x=930, y=323, width=42, height=48
+  Confidence: 0.54
+  Bounding Box: x=640, y=288, width=29, height=46
+  Confidence: 0.54
+  Bounding Box: x=520, y=313, width=27, height=51
+  Confidence: 0.52
+  Bounding Box: x=429, y=332, width=31, height=47
+  Confidence: 0.52
+  Bounding Box: x=473, y=299, width=31, height=43
+  Confidence: 0.52
+  Bounding Box: x=351, y=334, width=24, height=39
+  Confidence: 0.51
+  Bounding Box: x=183, y=346, width=25, height=46
+  Confidence: 0.49
+  Bounding Box: x=976, y=316, width=23, height=49
+  Confidence: 0.49
+  Bounding Box: x=935, y=278, width=41, height=50
+  Confidence: 0.49
+  Bounding Box: x=664, y=309, width=30, height=45
+  Confidence: 0.48
+  Bounding Box: x=844, y=295, width=35, height=55
+  Confidence: 0.48
+  Bounding Box: x=501, y=302, width=27, height=42
+  Confidence: 0.44
+  Bounding Box: x=921, y=353, width=51, height=74
+  Confidence: 0.42
+  Bounding Box: x=819, y=297, width=31, height=47
+  Confidence: 0.42
+  Bounding Box: x=494, y=320, width=30, height=39
+  Confidence: 0.41
+  Bounding Box: x=461, y=334, width=25, height=33
+  Confidence: 0.40
+  Bounding Box: x=666, y=276, width=29, height=43
+  Confidence: 0.40
+  Bounding Box: x=766, y=275, width=29, height=44
+  Confidence: 0.39
+  Bounding Box: x=895, y=325, width=34, height=50
+  Confidence: 0.33
+  Bounding Box: x=721, y=308, width=34, height=46
+  Confidence: 0.33
+  Bounding Box: x=467, y=367, width=67, height=89
+  Confidence: 0.33
+  Bounding Box: x=165, y=382, width=26, height=50
+  Confidence: 0.32
+  Bounding Box: x=533, y=295, width=23, height=37
+  Confidence: 0.30
+  Bounding Box: x=401, y=327, width=25, height=41
+  Confidence: 0.29
+  Bounding Box: x=242, y=355, width=27, height=28
+  Confidence: 0.27
+  Bounding Box: x=931, y=296, width=41, height=52
+  Confidence: 0.27
+  Bounding Box: x=620, y=291, width=49, height=62
+  Confidence: 0.25
+  Bounding Box: x=302, y=312, width=21, height=35
+  Confidence: 0.20
+  Bounding Box: x=557, y=296, width=22, height=37
+  Confidence: 0.20
+  Bounding Box: x=598, y=358, width=32, height=51
+  Confidence: 0.18
+  Bounding Box: x=411, y=361, width=28, height=41
+  Confidence: 0.17
+  Bounding Box: x=481, y=326, width=23, height=37
+  Confidence: 0.14
+  Bounding Box: x=210, y=382, width=18, height=27
+  Confidence: 0.14
+  Bounding Box: x=462, y=327, width=53, height=40
+  Confidence: 0.13
+  Bounding Box: x=820, y=325, width=28, height=48
+  Confidence: 0.13
+  Bounding Box: x=743, y=291, width=31, height=40
+  Confidence: 0.13
+  Bounding Box: x=296, y=373, width=62, height=76
+  Confidence: 0.12
+  Bounding Box: x=736, y=336, width=29, height=29
+  Confidence: 0.09
+  Bounding Box: x=364, y=372, width=34, height=59
+  Confidence: 0.09
+  Bounding Box: x=534, y=293, width=64, height=40
+  Confidence: 0.09
+  Bounding Box: x=718, y=301, width=26, height=36
+  Confidence: 0.09
+  Bounding Box: x=774, y=359, width=30, height=52
+  Confidence: 0.09
+  Bounding Box: x=736, y=287, width=21, height=33
+  Confidence: 0.08
+  Bounding Box: x=823, y=327, width=53, height=53
+  Confidence: 0.08
+  Bounding Box: x=976, y=327, width=22, height=90
+  Confidence: 0.07
+  Bounding Box: x=583, y=309, width=30, height=61
+  Confidence: 0.07
+  Bounding Box: x=273, y=358, width=21, height=23
+  Confidence: 0.07
+  Bounding Box: x=701, y=358, width=38, height=44
+  Confidence: 0.07
+  Bounding Box: x=528, y=345, width=24, height=28
+  Confidence: 0.06
+  Bounding Box: x=196, y=380, width=48, height=50
+  Confidence: 0.06
+  Bounding Box: x=550, y=360, width=26, height=40
+  Confidence: 0.06
+  Bounding Box: x=690, y=364, width=26, height=33
+  Confidence: 0.05
+  Bounding Box: x=701, y=341, width=26, height=28
+  Confidence: 0.05
+  Bounding Box: x=592, y=342, width=23, height=30
+  Confidence: 0.05
+  Bounding Box: x=561, y=345, width=20, height=23
+  Confidence: 0.05
+  Bounding Box: x=0, y=326, width=10, height=118
+  Confidence: 0.05
+  Bounding Box: x=310, y=365, width=22, height=35
+  Confidence: 0.05
+  Bounding Box: x=240, y=378, width=33, height=49
+  Confidence: 0.04
+  Bounding Box: x=362, y=355, width=22, height=26
+  Confidence: 0.04
+  Bounding Box: x=280, y=361, width=23, height=33
+  Confidence: 0.04
+  Bounding Box: x=389, y=357, width=21, height=20
+  Confidence: 0.03
+  Bounding Box: x=99, y=357, width=15, height=41
+  Confidence: 0.03
+  Bounding Box: x=903, y=320, width=57, height=79
+  Confidence: 0.03
+  Bounding Box: x=719, y=331, width=35, height=34
+  Confidence: 0.03
+  Bounding Box: x=902, y=354, width=34, height=66
+  Confidence: 0.03
+  Bounding Box: x=437, y=350, width=42, height=60
+  Confidence: 0.02
+  Bounding Box: x=753, y=356, width=38, height=80
+  Confidence: 0.02
+  Bounding Box: x=161, y=356, width=13, height=31
+  Confidence: 0.02
+  Bounding Box: x=652, y=342, width=22, height=32
+  Confidence: 0.02
+  Bounding Box: x=325, y=356, width=31, height=31
+  Confidence: 0.02
+  Bounding Box: x=567, y=348, width=30, height=23
+  Confidence: 0.02
+  Bounding Box: x=384, y=374, width=18, height=29
+  Confidence: 0.02
+  Bounding Box: x=444, y=353, width=24, height=35
+  Confidence: 0.02
+  Bounding Box: x=808, y=265, width=47, height=71
+  Confidence: 0.02
+  Bounding Box: x=429, y=374, width=35, height=58
+  Confidence: 0.02
+  Bounding Box: x=849, y=327, width=36, height=43
+  Confidence: 0.02
+  Bounding Box: x=131, y=322, width=67, height=130
+  Confidence: 0.02
+  Bounding Box: x=457, y=359, width=22, height=31
+  Confidence: 0.02
+  Bounding Box: x=651, y=359, width=21, height=36
+  Confidence: 0.02
+  Bounding Box: x=174, y=350, width=42, height=62
+  Confidence: 0.01
+  Bounding Box: x=380, y=358, width=27, height=32
+  Confidence: 0.01
+  Bounding Box: x=983, y=359, width=15, height=85
+  Confidence: 0.01
+  Bounding Box: x=248, y=372, width=28, height=32
+  Confidence: 0.01
+  Bounding Box: x=485, y=360, width=21, height=30
+  Confidence: 0.01
+  Bounding Box: x=323, y=375, width=35, height=55
+  Confidence: 0.01
+  Bounding Box: x=379, y=372, width=29, height=49
+  Confidence: 0.01
+  Bounding Box: x=443, y=368, width=27, height=36
+  Confidence: 0.01
+  Bounding Box: x=459, y=349, width=41, height=61
+  Confidence: 0.01
+  Bounding Box: x=711, y=339, width=32, height=32
+  Confidence: 0.01
+  Bounding Box: x=293, y=354, width=36, height=40
+  Confidence: 0.01
+  Bounding Box: x=313, y=371, width=35, height=42
+  Confidence: 0.01
+  Bounding Box: x=493, y=338, width=32, height=37
+  Confidence: 0.01
+  Bounding Box: x=744, y=342, width=38, height=46
+  Confidence: 0.01
+  Bounding Box: x=758, y=355, width=27, height=40
+  Confidence: 0.01
+  Bounding Box: x=848, y=315, width=61, height=82
+  Confidence: 0.01
+  Bounding Box: x=502, y=350, width=29, height=30
+  Confidence: 0.01
+  Bounding Box: x=295, y=381, width=33, height=52
+  Confidence: 0.01
+  Bounding Box: x=988, y=345, width=11, height=51
+  Confidence: 0.01
+  Bounding Box: x=331, y=336, width=49, height=57
+  Confidence: 0.01
+  Bounding Box: x=69, y=386, width=29, height=43
+  Confidence: 0.01
+  Bounding Box: x=626, y=351, width=24, height=24
+  Confidence: 0.01
+  Bounding Box: x=238, y=377, width=24, height=29
+  Confidence: 0.01
+  Bounding Box: x=498, y=365, width=37, height=61
+  Confidence: 0.01
+  Bounding Box: x=577, y=359, width=50, height=78
+  Confidence: 0.01
+  Bounding Box: x=195, y=361, width=32, height=53
+  Confidence: 0.00
+  Bounding Box: x=884, y=255, width=50, height=71
+  Confidence: 0.00
+  Bounding Box: x=286, y=379, width=26, height=36
+  Confidence: 0.00
+  Bounding Box: x=784, y=348, width=20, height=29
+  Confidence: 0.00
+  Bounding Box: x=811, y=321, width=45, height=79
+  Confidence: 0.00
+  Bounding Box: x=845, y=352, width=37, height=74
+  Confidence: 0.00
+  Bounding Box: x=0, y=339, width=8, height=49
+  Confidence: 0.00
+  Bounding Box: x=406, y=305, width=50, height=74
+  Confidence: 0.00
+  Bounding Box: x=949, y=338, width=39, height=50
+  Confidence: 0.00
+  Bounding Box: x=628, y=328, width=33, height=43
+  Confidence: 0.00
+  Bounding Box: x=354, y=367, width=25, height=33
+  Confidence: 0.00
+  Bounding Box: x=612, y=348, width=31, height=28
+  Confidence: 0.00
+  Bounding Box: x=377, y=310, width=45, height=71
+  Confidence: 0.00
+  Bounding Box: x=162, y=355, width=29, height=37
+  Confidence: 0.00
+  Bounding Box: x=688, y=361, width=34, height=76
+  Confidence: 0.00
+  Bounding Box: x=449, y=297, width=47, height=69
+  Confidence: 0.00
+  Bounding Box: x=901, y=282, width=34, height=41
+  Confidence: 0.00
+  Bounding Box: x=678, y=340, width=26, height=35
+  Confidence: 0.00
+  Bounding Box: x=607, y=363, width=57, height=64
+  Confidence: 0.00
+  Bounding Box: x=782, y=339, width=29, height=27
+  Confidence: 0.00
+  Bounding Box: x=452, y=378, width=39, height=57
+  Confidence: 0.00
+  Bounding Box: x=645, y=279, width=46, height=70
+  Confidence: 0.00
+  Bounding Box: x=773, y=272, width=33, height=32
+  Confidence: 0.00
+  Bounding Box: x=479, y=297, width=49, height=70
+  Confidence: 0.00
+  Bounding Box: x=262, y=329, width=40, height=43
+  Confidence: 0.00
+  Bounding Box: x=520, y=305, width=50, height=72
+  Confidence: 0.00
+  Bounding Box: x=870, y=334, width=48, height=55
+  Confidence: 0.00
+  Bounding Box: x=615, y=323, width=93, height=68
+  Confidence: 0.00
+  Bounding Box: x=731, y=307, width=105, height=67
+  Confidence: 0.00
+  Bounding Box: x=522, y=359, width=47, height=66
+  Confidence: 0.00
+  Bounding Box: x=77, y=379, width=20, height=30
+  Confidence: 0.00
+  Bounding Box: x=71, y=346, width=21, height=56
+  Confidence: 0.00
+  Bounding Box: x=799, y=266, width=31, height=32
+  Confidence: 0.00
+  Bounding Box: x=719, y=348, width=42, height=47
+  Confidence: 0.00
+  Bounding Box: x=951, y=367, width=33, height=60
+  Confidence: 0.00
+  Bounding Box: x=396, y=369, width=38, height=57
+  Confidence: 0.00
+  Bounding Box: x=675, y=304, width=93, height=61
+  Confidence: 0.00
+  Bounding Box: x=653, y=352, width=37, height=45
+  Confidence: 0.00
+  Bounding Box: x=725, y=285, width=51, height=73
+  Confidence: 0.00
+  Bounding Box: x=758, y=325, width=37, height=51
+  Confidence: 0.00
+Caption: a group of people sitting on grass in front of a large dome (Confidence: 0.79)

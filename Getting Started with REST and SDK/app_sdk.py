@@ -24,9 +24,9 @@ def sentiment_analysis(client, text):
         return None
 
 def main():
-    endpoint = "<YOUR_ENDPOINT>"
-    key = "<YOUR_API_KEY>"
-    sample_text = "The hotel is bad. The food and service were unacceptable."
+    endpoint = "https://my-lang-svc.cognitiveservices.azure.com/"
+    key = "8Zmb7zIrjUTpLKTtSiGfHgJ27JJAVyU3Oj61J4fIoSjkjkDsEiBdJQQJ99BFACYeBjFXJ3w3AAAaACOGbW9c"
+    sample_text = "The hotel is good. The food and service were nice."
     client = authenticate_client(endpoint, key)
     sentiment_analysis(client, sample_text)
 

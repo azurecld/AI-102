@@ -18,11 +18,11 @@ from azure.ai.vision.imageanalysis.models import VisualFeatures
 from azure.core.credentials import AzureKeyCredential
 
 # Replace with your Azure Vision API endpoint and key
-endpoint = "<YOUR_AZURE_VISION_ENDPOINT>"
-key = "<YOUR_AZURE_VISION_KEY>"
+endpoint = "https://myimageanlyze.cognitiveservices.azure.com/"
+key = "750QL9oIOiW8gfDY9psCnzt1jliqRBhN80TbzeWfUcnKTOSarq2wJQQJ99BFACYeBjFXJ3w3AAAFACOGkv62"
 
 # Replace with the URL of the image to analyze
-image_url = "<IMAGE_URL>"
+image_url = "https://static.sadhguru.org/d/46272/1664429289-mahashivratri-wishes-11.jpg"
 
 client = ImageAnalysisClient(
     endpoint=endpoint,
@@ -33,6 +33,8 @@ result = client.analyze_from_url(
     image_url=image_url,
     visual_features=[VisualFeatures.READ]
 )
+
+print(result)
 
 try:
     if hasattr(result, "as_dict"):

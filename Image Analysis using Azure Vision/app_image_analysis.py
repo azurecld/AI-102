@@ -20,11 +20,11 @@ from azure.core.credentials import AzureKeyCredential
 import json
 
 # Replace with your Azure Vision endpoint and key
-endpoint = "<YOUR_AZURE_VISION_ENDPOINT>"
-key = "<YOUR_AZURE_VISION_KEY>"
+endpoint = "https://myimageanlyze.cognitiveservices.azure.com/"
+key = "750QL9oIOiW8gfDY9psCnzt1jliqRBhN80TbzeWfUcnKTOSarq2wJQQJ99BFACYeBjFXJ3w3AAAFACOGkv62"
 
 # Replace with the URL of the image to analyze
-image_url = "<IMAGE_URL>"
+image_url = "https://static.sadhguru.org/d/46272/1631019171-20090920xxx0184-e.jpg?h=600&w=1000"
 
 client = ImageAnalysisClient(
     endpoint=endpoint,
