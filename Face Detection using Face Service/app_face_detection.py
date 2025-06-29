@@ -14,9 +14,9 @@ from azure.cognitiveservices.vision.face.models import FaceAttributeType
 from msrest.authentication import CognitiveServicesCredentials
 import json
 
-ENDPOINT = "<FACE_API_ENDPOINT>"
-KEY = "<FACE_API_KEY>"
-IMAGE_URL = "<IMAGE_URL>"
+ENDPOINT = "https://uktestfapi.cognitiveservices.azure.com/"
+KEY = "70sGN17Bytd83L0wtAtIV5jngNdWPWoYE3OY2Sg0HKtKq6eRmDtkJQQJ99BFACYeBjFXJ3w3AAAKACOGsRsi"
+IMAGE_URL = "https://as1.ftcdn.net/jpg/03/28/57/40/1000_F_328574027_d3kIACyE1Y959HEAK0ENdW1h3GYwIeJm.jpg"
 
 face_client = FaceClient(ENDPOINT, CognitiveServicesCredentials(KEY))
 
