@@ -1,0 +1,46 @@
+(.venv) PS F:\git\github\Azure-AI\AI-102\Language Services> python .\app_lang_detection.py    
+[
+  {
+    "id": "0",
+    "primary_language": "{'name': 'French', 'iso6391_name': 'fr', 'confidence_score': 1.0}",
+    "warnings": [],
+    "statistics": null,
+    "is_error": false,
+    "kind": "LanguageDetection"
+  },
+  {
+    "id": "1",
+    "primary_language": "{'name': 'Spanish', 'iso6391_name': 'es', 'confidence_score': 1.0}",
+    "warnings": [],
+    "statistics": null,
+    "is_error": false,
+    "kind": "LanguageDetection"
+  },
+  {
+    "id": "2",
+    "primary_language": "{'name': 'Arabic', 'iso6391_name': 'ar', 'confidence_score': 0.99}",
+    "warnings": [],
+    "statistics": null,
+    "is_error": false,
+    "kind": "LanguageDetection"
+  },
+  {
+    "id": "3",
+    "primary_language": "{'name': 'Telugu', 'iso6391_name': 'te', 'confidence_score': 1.0}",
+    "warnings": [],
+    "statistics": null,
+    "is_error": false,
+    "kind": "LanguageDetection"
+  }
+]
+Text: Bonjour tout le monde, je suis ravi de vous rencontrer.
+Detected Language: French (ISO: fr, Confidence: 1.00)
+
+Text: Hola, ¿cómo estás?
+Detected Language: Spanish (ISO: es, Confidence: 1.00)
+
+Text: مرحباً، كيف حالك؟
+Detected Language: Arabic (ISO: ar, Confidence: 0.99)
+
+Text: ఎలా ఉన్నావు?
+Detected Language: Telugu (ISO: te, Confidence: 1.00)

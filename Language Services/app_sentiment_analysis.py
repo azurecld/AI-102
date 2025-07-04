@@ -11,11 +11,15 @@ Requirements:
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
-endpoint = "<your_endpoint>"
-key = "<your_api_key>"
+# Endpoint and API Key for Azure Text Analytics
+# Replace these with your actual endpoint and key
+endpoint = "https://mylangsvc.cognitiveservices.azure.com/"
+key = "1YugXmvwrkEd9rKix64zselQYbNXeAMIFFg6x8YMUwFy3YyOqo2qJQQJ99BGACYeBjFXJ3w3AAAaACOGjhrw"
 
 documents = [
-    "Golden retriever puppies are the cutest."
+    "I had a wonderful experience with the customer support team. They were friendly, helpful, and resolved my issue quickly. I will definitely recommend this service to others.",
+    "The product quality is excellent, but the delivery was delayed and the packaging was damaged.",
+    "I am extremely disappointed with the service. The staff was rude, and my problem is still unresolved."
 ]
 
 credential = AzureKeyCredential(key)

@@ -1,9 +1,10 @@
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.translation.text import TextTranslationClient
 
-# Service endpoint and key
-endpoint = "https://aiservicesai900.cognitiveservices.azure.com/"
-key = "2nDOsJoeWNZscliGmRVpC88rpvMsF3wF5KjGqcrSUqmjAX1N6zrlJQQJ99AKACYeBjFXJ3w3AAAAACOGr0oi"
+
+# Replace these with your actual endpoint and key
+endpoint = "https://mylangtranltr.cognitiveservices.azure.com/"
+key = "5iiMen0H7QSXKTqpoxcZBtHKzTWf6hbrQsrIsvG53F0fGcLXmLaRJQQJ99BGACYeBjFXJ3w3AAAbACOG04op"
 
 # Initialize client
 credential = AzureKeyCredential(key)
@@ -19,14 +20,14 @@ body = [
 ]
 
 # Call the translate method
-response = client.translate(body=body, to_language=["en", "fr"])
+response = client.translate(body=body, to_language=["en", "fr", "te"])
 
 
 transliteration_response = client.transliterate(
         body=[input_text],
         language="ko",
         from_script="Kore",
-        to_script="Latn"
+        to_script="Latn",
     )
 transliteration = transliteration_response[0].text
 

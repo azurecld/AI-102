@@ -1,0 +1,19 @@
+(.venv) PS F:\git\github\Azure-AI\AI-102\Language Services> python .\app_sentiment_analysis.py
+
+Text: I had a wonderful experience with the customer support team. They were friendly, helpful, and resolved my issue quickly. I will definitely recommend this service to others.
+
+
+Sentiment: positive
+Confidence Scores: Positive=1.00, Neutral=0.00, Negative=0.00
+
+Text: The product quality is excellent, but the delivery was delayed and the packaging was damaged.
+
+
+Sentiment: negative
+Confidence Scores: Positive=0.00, Neutral=0.00, Negative=1.00
+
+Text: I am extremely disappointed with the service. The staff was rude, and my problem is still unresolved.
+
+
+Sentiment: negative
+Confidence Scores: Positive=0.00, Neutral=0.00, Negative=1.00

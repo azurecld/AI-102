@@ -11,11 +11,15 @@ Requirements:
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
-endpoint = "<your_endpoint>"
-key = "<your_key>"
+# Endpoint and API Key for Azure Text Analytics
+# Replace these with your actual endpoint and key
+endpoint = "https://mylangsvc.cognitiveservices.azure.com/"
+key = "1YugXmvwrkEd9rKix64zselQYbNXeAMIFFg6x8YMUwFy3YyOqo2qJQQJ99BGACYeBjFXJ3w3AAAaACOGjhrw"
 
 documents = [
-    "Sample text for Named Entity Recognition.",
+    "Microsoft was founded by Bill Gates and Paul Allen in 1975. Its headquarters are located in Redmond, Washington.",
+    "The Eiffel Tower, located in Paris, France, was designed by Gustave Eiffel and completed in 1889.",
+    "John was prescribed 500 mg of Ibuprofen by Dr. Smith at Mayo Clinic."
 ]
 
 credential = AzureKeyCredential(key)

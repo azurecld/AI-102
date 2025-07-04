@@ -12,11 +12,14 @@ Requirements:
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
-endpoint = "<YOUR_ENDPOINT>"
-key = "<YOUR_KEY>"
+# Endpoint and API Key for Azure Text Analytics
+# Replace these with your actual endpoint and key
+endpoint = "https://mylangsvc.cognitiveservices.azure.com/"
+key = "1YugXmvwrkEd9rKix64zselQYbNXeAMIFFg6x8YMUwFy3YyOqo2qJQQJ99BGACYeBjFXJ3w3AAAaACOGjhrw"
 
 documents = [
-    "Eiffel tower is located in Paris."
+    "Apple is known for its innovative products like the iPhone and the MacBook. In 2023, Apple reported record profits, solidifying its position as one of the most valuable companies in the world.",
+    "An apple a day keeps the doctor away. Apples are rich in fiber and vitamins, making them a healthy snack."
 ]
 
 credential = AzureKeyCredential(key)

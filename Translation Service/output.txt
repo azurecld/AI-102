@@ -1,0 +1,12 @@
+(.venv) PS F:\git\github\Azure-AI\AI-102\Translation Service> python .\app.py
+Detected Language: ko (Score: 1.0)
+
+=== Translation & Transliteration Output ===
+
+→ EN: Good morning. How are you?
+
+→ FR: Bonjour. Comment vas-tu?
+
+→ TE: శుభోదయం. మీరు ఎలా ఉన్నారు?
+
+Transliteration (Latin Script): joheun achimipnida. jal jinaeseyo?

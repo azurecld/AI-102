@@ -6,8 +6,10 @@
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
-endpoint = "<YOUR_ENDPOINT>"
-key = "<YOUR_API_KEY>"
+# Endpoint and API Key for Azure Text Analytics
+# Replace these with your actual endpoint and key
+endpoint = "https://mylangsvc.cognitiveservices.azure.com/"
+key = "1YugXmvwrkEd9rKix64zselQYbNXeAMIFFg6x8YMUwFy3YyOqo2qJQQJ99BGACYeBjFXJ3w3AAAaACOGjhrw"
 
 documents = [
     "Golden retrievers are one of the most popular dog breeds, known for their friendly, intelligent, and devoted nature. They are excellent family pets and are often used as guide dogs, therapy dogs, and in search-and-rescue operations due to their trainability and gentle temperament.",

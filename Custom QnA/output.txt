@@ -1,0 +1,8 @@
+(.venv) PS F:\git\github\Azure-AI\AI-102> cd '.\Custom QnA\'
+(.venv) PS F:\git\github\Azure-AI\AI-102\Custom QnA> python .\app.py
+Q: What is Azure Cognitive Services?
+A: Azure Cognitive Services is a set of cloud-based APIs that allow developers to integrate AI capabilities into their applications without needing deep AI or data science knowledge.
+
+(.venv) PS F:\git\github\Azure-AI\AI-102\Custom QnA> python .\app.py
+Q: How are you?
+A: Great, thanks.

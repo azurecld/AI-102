@@ -11,11 +11,13 @@ The script authenticates the client, sends a text document for PII detection, an
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
-endpoint = "<your_endpoint>"
-key = "<your_key>"
+# Endpoint and API Key for Azure Text Analytics
+# Replace these with your actual endpoint and key
+endpoint = "https://mylangsvc.cognitiveservices.azure.com/"
+key = "1YugXmvwrkEd9rKix64zselQYbNXeAMIFFg6x8YMUwFy3YyOqo2qJQQJ99BGACYeBjFXJ3w3AAAaACOGjhrw"
 
 documents = [
-    "Sample text containing PII information."
+    "My name is John Smith, and my phone number is (555) 123-4567. You can also reach me at john.smith@email.com. I live at 1234 Elm Street, Seattle, WA 98101. My Social Security Number is 987-65-4320.",
 ]
 
 client = TextAnalyticsClient(endpoint=endpoint, credential=AzureKeyCredential(key))

@@ -1,0 +1,16 @@
+(.venv) PS F:\git\github\Azure-AI\AI-102\Language Services> python .\app_key_phrase_extraction.py
+
+Text: Golden retrievers are one of the most popular dog breeds, known for their friendly, intelligent, and devoted nature. They are excellent family pets and are often used as guide dogs, therapy dogs, and in search-and-rescue operations due to their trainability and gentle temperament.
+
+
+Key Phrases:
+ - popular dog breeds
+ - excellent family pets
+ - Golden retrievers
+ - devoted nature
+ - guide dogs
+ - therapy dogs
+ - rescue operations
+ - gentle temperament
+ - search
+ - trainability

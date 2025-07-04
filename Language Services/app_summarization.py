@@ -1,9 +1,10 @@
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
-# Endpoint
-endpoint = "https://aiservicesai900.cognitiveservices.azure.com/"
-key = "2nDOsJoeWNZscliGmRVpC88rpvMsF3wF5KjGqcrSUqmjAX1N6zrlJQQJ99AKACYeBjFXJ3w3AAAAACOGr0oi"
+# Endpoint and API Key for Azure Text Analytics
+# Replace these with your actual endpoint and key
+endpoint = "https://mylangsvc.cognitiveservices.azure.com/"
+key = "1YugXmvwrkEd9rKix64zselQYbNXeAMIFFg6x8YMUwFy3YyOqo2qJQQJ99BGACYeBjFXJ3w3AAAaACOGjhrw"
 
 # Long input text
 document = """

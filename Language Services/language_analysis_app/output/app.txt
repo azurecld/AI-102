@@ -1,0 +1,78 @@
+input:
+Hi, my name is Emily Johnson. I recently purchased a new iPhone 15 from the Apple Store in New York City. The product is fantastic, but I had some issues with customer support.
+
+You can contact me at emily.johnson@example.com or call me at (202) 555-0198. My home address is 742 Evergreen Terrace, Springfield. Also, my Social Security Number is 123-45-6789.
+
+Overall, I love the features of the iPhone 15, especially the camera quality. However, I felt frustrated by the delayed response from support.
+
+Apple's CEO, Tim Cook, recently announced record profits for the company. Apple continues to be a leader in innovation, much like Microsoft, which is based in Redmond, Washington.
+
+
+#################################
+
+Results
+Language: English (ISO: en, Confidence: 1.0)
+
+Sentiment: mixed
+
+Positive: 0.41
+Neutral: 0.06
+Negative: 0.54
+Key Phrases: Social Security Number, New York City, new iPhone, home address, 742 Evergreen Terrace, camera quality, Tim Cook, record profits, customer support, Apple Store, Emily Johnson, name, product, issues, Springfield, features, response, CEO, company, leader, innovation, Microsoft, Redmond, Washington
+
+Named Entities:
+
+Emily Johnson (Person, Confidence: 1.0)
+recently (DateTime, Confidence: 0.88)
+iPhone 15 (Product, Confidence: 0.85)
+Apple (Organization, Confidence: 0.75)
+Store (Location, Confidence: 0.49)
+New York City (Location, Confidence: 1.0)
+customer support (Skill, Confidence: 1.0)
+emily.johnson@example.com (Email, Confidence: 0.8)
+(202) 555-0198 (PhoneNumber, Confidence: 0.8)
+742 Evergreen Terrace, Springfield (Address, Confidence: 1.0)
+123 (Quantity, Confidence: 0.8)
+45 (Quantity, Confidence: 0.8)
+6789 (Quantity, Confidence: 0.8)
+iPhone 15 (Product, Confidence: 1.0)
+camera (Product, Confidence: 0.88)
+Apple (Organization, Confidence: 0.96)
+CEO (PersonType, Confidence: 0.77)
+Tim Cook (Person, Confidence: 1.0)
+recently (DateTime, Confidence: 0.96)
+Apple (Organization, Confidence: 1.0)
+leader (Skill, Confidence: 0.79)
+innovation (Skill, Confidence: 0.99)
+Microsoft (Organization, Confidence: 1.0)
+Redmond (Location, Confidence: 1.0)
+Washington (Location, Confidence: 0.9)
+Linked Entities:
+
+My Name Is Emily (Wikipedia)
+IPhone (Wikipedia)
+Apple Inc. (Wikipedia)
+New York City (Wikipedia)
+The Simpsons house (Wikipedia)
+Springfield (The Simpsons) (Wikipedia)
+Social Security number (Wikipedia)
+Chief executive officer (Wikipedia)
+Tim Cook (Wikipedia)
+Microsoft (Wikipedia)
+Redmond, Washington (Wikipedia)
+PII Entities:
+
+Emily Johnson (Person, Confidence: 1.0)
+recently (DateTime, Confidence: 0.88)
+Apple (Organization, Confidence: 0.75)
+customer (PersonType, Confidence: 0.8)
+emily.johnson@example.com (Email, Confidence: 0.8)
+(202) 555-0198 (PhoneNumber, Confidence: 0.8)
+742 Evergreen Terrace, Springfield (Address, Confidence: 1.0)
+123-45-6789 (USSocialSecurityNumber, Confidence: 0.85)
+Apple (Organization, Confidence: 0.96)
+CEO (PersonType, Confidence: 0.77)
+Tim Cook (Person, Confidence: 1.0)
+recently (DateTime, Confidence: 0.96)
+Apple (Organization, Confidence: 1.0)
+Microsoft (Organization, Confidence: 1.0)

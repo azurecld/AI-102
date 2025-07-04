@@ -3,14 +3,15 @@ from azure.core.credentials import AzureKeyCredential
 import json
 
 # Endpoint
-endpoint = "https://aiservicesai900.cognitiveservices.azure.com/"
-key = "2nDOsJoeWNZscliGmRVpC88rpvMsF3wF5KjGqcrSUqmjAX1N6zrlJQQJ99AKACYeBjFXJ3w3AAAAACOGr0oi"
+endpoint = "https://mylangsvc.cognitiveservices.azure.com/"
+key = "1YugXmvwrkEd9rKix64zselQYbNXeAMIFFg6x8YMUwFy3YyOqo2qJQQJ99BGACYeBjFXJ3w3AAAaACOGjhrw"
 
 
 input_texts = [
     "Bonjour tout le monde, je suis ravi de vous rencontrer.",
     "Hola, ¿cómo estás?",
-  "مرحباً، كيف حالك؟"
+  "مرحباً، كيف حالك؟",
+  "ఎలా ఉన్నావు?"
 ]
 credential = AzureKeyCredential(key)
 client = TextAnalyticsClient(endpoint=endpoint, credential=credential)

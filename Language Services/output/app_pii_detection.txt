@@ -1,0 +1,10 @@
+(.venv) PS F:\git\github\Azure-AI\AI-102\Language Services> python .\app_pii_detection.py
+
+Text: My name is John Smith, and my phone number is (555) 123-4567. You can also reach me at john.smith@email.com. I live at 1234 Elm Street, Seattle, WA 98101. My Social Security Number is 987-65-4320.
+
+
+Detected PII Entities:
+ - John Smith (Person, Confidence: 1.00)
+ - john.smith@email.com (Email, Confidence: 0.80)
+ - 1234 Elm Street, Seattle, WA 98101 (Address, Confidence: 1.00)
+ - 987-65-4320 (USIndividualTaxpayerIdentification, Confidence: 0.85)

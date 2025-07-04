@@ -1,0 +1,33 @@
+(.venv) PS F:\git\github\Azure-AI\AI-102\Language Services> python .\app_ner.py
+
+Text: Microsoft was founded by Bill Gates and Paul Allen in 1975. Its headquarters are located in Redmond, Washington.
+
+
+Named Entities:
+ - Microsoft (Organization, Confidence: 0.99)
+ - Bill Gates (Person, Confidence: 1.00)
+ - Paul Allen (Person, Confidence: 1.00)
+ - 1975 (DateTime, Confidence: 1.00)
+ - headquarters (Location, Confidence: 0.92)
+ - Redmond (Location, Confidence: 0.93)
+ - Washington (Location, Confidence: 0.83)
+
+Text: The Eiffel Tower, located in Paris, France, was designed by Gustave Eiffel and completed in 1889.
+
+
+Named Entities:
+ - Eiffel Tower (Location, Confidence: 0.96)
+ - Paris (Location, Confidence: 0.85)
+ - France (Location, Confidence: 0.84)
+ - Gustave Eiffel (Person, Confidence: 1.00)
+ - 1889 (DateTime, Confidence: 1.00)
+
+Text: John was prescribed 500 mg of Ibuprofen by Dr. Smith at Mayo Clinic.
+
+
+Named Entities:
+ - John (Person, Confidence: 1.00)
+ - 500 mg (Quantity, Confidence: 1.00)
+ - Ibuprofen (Product, Confidence: 0.98)
+ - Smith (Person, Confidence: 0.99)
+ - Mayo Clinic (Location, Confidence: 0.74)

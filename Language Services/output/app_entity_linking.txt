@@ -1,0 +1,36 @@
+(.venv) PS F:\git\github\Azure-AI\AI-102\Language Services> python .\app_entity_linking.py
+
+Text: Apple is known for its innovative products like the iPhone and the MacBook. In 2023, Apple reported record profits, solidifying its position as one of the most valuable companies in the world.
+
+
+Linked Entities:
+ - Name: Apple Inc.
+   ID: Apple Inc.
+   URL: https://en.wikipedia.org/wiki/Apple_Inc.
+   Source: Wikipedia
+   Matches:
+     > 'Apple' (Confidence: 0.30)
+     > 'Apple' (Confidence: 0.30)
+ - Name: MacBook
+   ID: MacBook
+   URL: https://en.wikipedia.org/wiki/MacBook
+   Source: Wikipedia
+   Matches:
+     > 'MacBook' (Confidence: 0.11)
+
+Text: An apple a day keeps the doctor away. Apples are rich in fiber and vitamins, making them a healthy snack.
+
+
+Linked Entities:
+ - Name: An apple a day keeps the doctor away
+   ID: An apple a day keeps the doctor away
+   URL: https://en.wikipedia.org/wiki/An_apple_a_day_keeps_the_doctor_away
+   Source: Wikipedia
+   Matches:
+     > 'An apple a day keeps the doctor away' (Confidence: 0.81)
+ - Name: Apple
+   ID: Apple
+   URL: https://en.wikipedia.org/wiki/Apple
+   Source: Wikipedia
+   Matches:
+     > 'Apples' (Confidence: 0.37)
